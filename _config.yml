@@ -5,24 +5,24 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Theme Settings 
+# 
+# Review documentation to determine if you should use `theme` or `remote_theme` 
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme 
+ 
+# theme                  : "minimal-mistakes-jekyll" 
+# remote_theme           : "mmistakes/minimal-mistakes" 
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "fr-FR"
+title                    : "Guillaume Pastor"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Guillaume"
+description              : ""
+url                      : "https://pgui.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : PGui/PGui.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -36,7 +36,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark" 
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -90,17 +90,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-106147248-1"
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Guillaume Pastor"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Programmer @dontnod"
+  location         : "Paris"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -110,19 +110,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "PGui"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : guillaumepastor # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "pasgui1"
   vine             :
   weibo            :
   xing             :
@@ -206,6 +206,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - "jekyll-github-metadata"
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -266,3 +267,5 @@ defaults:
       comments: # true
       share: true
       related: true
+
+remote_theme: "mmistakes/minimal-mistakes"
