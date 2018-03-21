@@ -12,3 +12,13 @@ example/_site
 Gemfile.lock
 node_modules
 npm-debug.log*
+screenshot.png
+screenshot-layouts.png
+README.md
+CHANGELOG.md
+*.gemspec
+docs/
+test/
+.editorconfig
+.gitattributes
+.github
