@@ -16,7 +16,6 @@ screenshot.png
 screenshot-layouts.png
 README.md
 CHANGELOG.md
-*.gemspec
 docs/
 test/
 .editorconfig
