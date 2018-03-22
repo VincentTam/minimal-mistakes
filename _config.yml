@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Guillaume Pastor"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/author/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Programmer @dontnod"
   location         : "Paris"
   email            :
@@ -265,7 +265,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
   # _portfolio
   - scope:
@@ -273,8 +273,8 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
-      share: true
+      author_profile: true
+      share: false
 
 collections:
   portfolio:
