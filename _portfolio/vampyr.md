@@ -20,8 +20,10 @@ gallery:
     image_path: assets/images/projects/vampyr/vyr6.jpg
 ---
 
-Vampyr 🧛 is a narrative driven Action-RPG developed by Dontnod Entertainment and edited by Focus Home Interactive. It takes place in a 1918 London ravaged by the Spanish influenza; you are a doctor who just came back from the war and unfortunately, you also just turned into a vampire...  
-Your goal is to find a cure for your condition; for that, you'll meet a wide range of characters across London and you'll be able to eat all of them !  
+Vampyr🧛is a narrative driven Action-RPG developed by Dontnod Entertainment and edited by Focus Home Interactive. It takes place in a 1918 London ravaged by the Spanish influenza; you are a doctor who just came back from the war and unfortunately, you also just turned into a vampire...
+{: .text-justify}
+Your goal is to find a cure for your condition; for that, you'll meet a wide range of characters across London and you'll be able to eat all of them !
+{: .text-justify}
 You can find more informations on [the website of the game](http://www.vampyr-game.com/) :grinning:
 {: .text-justify}
 
