@@ -2,7 +2,7 @@
 title: "Chronobot"
 author_profile: true
 order: 2
-excerpt: "Chronobot🔣is a self-cooperative game for two players where you are aided by clones of yourself from past rounds."
+excerpt: "Chronobot :joystick: is a self-cooperative game for two players where you are aided by clones of yourself from past rounds."
 header:
   teaser: /assets/images/projects/chronobot/teaserchrono.png
 gallery:
@@ -19,7 +19,7 @@ gallery:
   - url: /assets/images/projects/chronobot/chrono6.png
     image_path: assets/images/projects/chronobot/chrono6.png
 ---
-Chronobot🔣is a self-cooperative game for two players where you are aided by clones of yourself from past rounds.
+Chronobot :joystick: is a self-cooperative game for two players where you are aided by clones of yourself from past rounds.
 The game uses this feature to add depth and strategy across different game modes.
 {: .text-justify}
 {% include video id="Ivv2-JtN-JQ" provider="youtube" %} 
@@ -28,7 +28,7 @@ The current version of the game was developed as a student project during three 
 This game was finalist for the Student Award at ***UNITE 2015*** and ***PING 2015***, Game Critic finalist at ***Montpellier In Game 2015*** and finalist for the Outstanding Talent Award at ***LUDICROUS 2016***.
 {: .text-justify}
 
-You can download the game at [https://chronobot.itch.io/chronobot](https://chronobot.itch.io/chronobot)
+> You can download the game at [https://chronobot.itch.io/chronobot](https://chronobot.itch.io/chronobot)
 {% include figure image_path="/assets/images/projects/chronobot/chrono5alt.png" alt="Chronobot" %}
 ## What I did on this project
 This project was made by 6 persons with Unity 3D in three months. Due to the small team, I had the chance to be in charge of many aspects of the game:
