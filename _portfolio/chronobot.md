@@ -25,7 +25,7 @@ The game uses this feature to add depth and strategy across different game modes
 {% include video id="Ivv2-JtN-JQ" provider="youtube" %} 
 The current version of the game was developed as a student project during three months at the National Graduate School of Games in France (ENJMIN).
 {: .text-justify}
-This game was finalist for the Student Award at ***UNITE 2015*** and ***PING 2015***, Game Critic finalist at ***Montpellier In Game 2015*** and finalist for the Outstanding Talent Award at ***LUDICROUS 2016***.
+This game was finalist for the Student Award at ***UNITE 2015*** and ***PING 2015***, Game Critic finalist at ***Montpellier In Game 2015*** and finalist for the Outstanding Talent Award at ***LUDICIOUS 2016***.
 {: .text-justify}
 
 > You can download the game at [https://chronobot.itch.io/chronobot](https://chronobot.itch.io/chronobot)
