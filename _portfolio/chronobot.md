@@ -28,14 +28,13 @@ The current version of the game was developed as a student project during three 
 This game was finalist for the Student Award at ***UNITE 2015*** and ***PING 2015***, Game Critic finalist at ***Montpellier In Game 2015*** and finalist for the Outstanding Talent Award at ***LUDICROUS 2016***.
 {: .text-justify}
 
-You can download the current version at [https://chronobot.itch.io/chronobot](https://chronobot.itch.io/chronobot)
-
+You can download the game at [https://chronobot.itch.io/chronobot](https://chronobot.itch.io/chronobot)
+{% include figure image_path="/assets/images/projects/chronobot/chrono5alt.png" alt="Chronobot" %}
 ## What I did on this project
-
 This project was made by 6 persons with Unity 3D in three months. Due to the small team, I had the chance to be in charge of many aspects of the game:
 {: .text-justify}
-* **gameplay** programming - movements, shoots, robot shields, game modes...
-* a level editor **tool** for the designers
+* gameplay programming - movements, shoots, robot shields, game modes...
+* a level editor tool for the designers
 * coding the menus and the user interface
 * integration of the models and the animations of the robots
 * integration of some visual effetcs
