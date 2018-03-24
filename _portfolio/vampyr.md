@@ -1,7 +1,7 @@
 ---
-title: "Vampyr"
+title: "Vamp<span style=\"color:red\">**y**</span>r"
 author_profile: true
-# excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "Vampyr🧛is a narrative driven Action-RPG developed by Dontnod Entertainment. Discover what I did on this project."
 order: 1
 header:
   teaser: /assets/images/projects/vampyr/teaser_vyr.jpg
