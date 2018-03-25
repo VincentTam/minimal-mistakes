@@ -1,7 +1,7 @@
 ---
 title: "Chronobot"
 author_profile: true
-order: 2
+order: 3
 excerpt: "Chronobot :joystick: is a self-cooperative game for two players where you are aided by clones of yourself from past rounds."
 header:
   teaser: /assets/images/projects/chronobot/teaserchrono.png
@@ -23,7 +23,7 @@ Chronobot :joystick: is a self-cooperative game for two players where you are ai
 The game uses this feature to add depth and strategy across different game modes.
 {: .text-justify}
 {% include video id="Ivv2-JtN-JQ" provider="youtube" %} 
-The current version of the game was developed as a student project during three months at the National Graduate School of Games in France (ENJMIN).
+This game was developed as a student project during three months at the National Graduate School of Games in France (ENJMIN) in 2015.
 {: .text-justify}
 This game was finalist for the Student Award at ***UNITE 2015*** and ***PING 2015***, Game Critic finalist at ***Montpellier In Game 2015*** and finalist for the Outstanding Talent Award at ***LUDICIOUS 2016***.
 {: .text-justify}
