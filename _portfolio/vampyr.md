@@ -1,7 +1,7 @@
 ---
 title: "Vamp<span style=\"color:red\">**y**</span>r"
 author_profile: true
-excerpt: "Vampyr🧛is a narrative driven Action-RPG developed by Dontnod Entertainment. Discover what I did on this project."
+excerpt: "Vampyr🧛is a narrative driven Action-RPG developed by Dontnod Entertainment."
 order: 1
 header:
   teaser: /assets/images/projects/vampyr/teaser_vyr.jpg
