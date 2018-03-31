@@ -39,7 +39,8 @@ Cooperation and teamwork will be the most important tool for them to become the 
 {% include video id="07tguOfuEEI" provider="youtube" %} 
 Bring it Back is a final year study project of the National Graduate School of Games in France (ENJMIN). Eleven students worked on this pre-production project during six months in 2016. It is developed with Unreal Engine 4.
 {: .text-justify}
-> You can [download the game on Gamejolt](https://gamejolt.com/games/bring-it-back/147977).
+[![DL](/assets/images/other/download.png)   Download Bring It Back](https://gamejolt.com/games/bring-it-back/147977){: .btn .btn--success .btn--x-large}
+{: .text-center}
 {% include figure image_path="/assets/images/projects/bringitback/daemon.png" alt="BringItBack" %}
 ## What I did on this project
 

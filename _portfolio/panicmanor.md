@@ -42,8 +42,10 @@ If the *Strangler* kills all his victims he wins and the game is over, if the *s
 The remaining *students* must fight each other to get this key. The first one who reaches the gates of the Manor with the key will be the winner.
 {: .text-justify}
 
-> Download the game **[HERE](http://www.creajeux.fr/projet/panic-manor/)**  
-> Find more about it **[HERE](https://www.facebook.com/PanicManorProject)**
+[![DL](/assets/images/other/download.png)   Download Panic Manor](http://www.creajeux.fr/projet/panic-manor/){: .btn .btn--success .btn--x-large}
+{: .text-center}
+Find more about it on the **[project's facebook page](https://www.facebook.com/PanicManorProject)**.
+{: .notice--info}
 
 {% include figure image_path="/assets/images/projects/panicmanor/banner.jpg" alt="PanicManor" %}
 
