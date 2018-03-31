@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Guillaume Pastor"
   avatar           : "assets/images/author/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Game Programmer @dontnod"
+  bio              : "Programmer @dontnod"
   location         : "Paris"
   email            :
   uri              :

@@ -3,6 +3,10 @@ title: "Vamp<span style=\"color:red\">**y**</span>r"
 author_profile: true
 excerpt: "Vampyr🧛is a narrative driven Action-RPG developed by Dontnod Entertainment."
 order: 1
+tags:
+  - dontnod
+  - narrative game
+  - Unreal Engine 4
 header:
   teaser: /assets/images/projects/vampyr/teaser_vyr.jpg
 gallery:
