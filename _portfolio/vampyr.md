@@ -6,7 +6,18 @@ order: 1
 tags:
   - dontnod
   - narrative game
-  - Unreal Engine 4
+  - unreal engine 4
+  - xbox one
+  - playstation 4
+  - pc
+  - c++
+  - csharp
+  - python
+  - javascript
+  - leaftletjs
+  - motionbuilder
+  - maya
+  - tools
 header:
   teaser: /assets/images/projects/vampyr/teaser_vyr.jpg
 gallery:
