@@ -1,7 +1,7 @@
 ---
 title: "Panic Manor"
 author_profile: true
-excerpt: "Panic Manor 😱 is a first person asymetric multiplayer survival horror designed by Frédérick Raynal."
+excerpt: "Panic Manor 😱 is a first person asymmetric multiplayer survival horror designed by Frédérick Raynal."
 order: 4
 header:
   teaser: /assets/images/projects/panicmanor/teaserpm.png
@@ -26,7 +26,7 @@ gallery:
     image_path: assets/images/projects/panicmanor/pm11.jpg
 ---
 
-Panic Manor 😱 is a first person asymetric multiplayer survival horror designed by Frédérick Raynal (famous designer of Alone in the Dark, Little Big Adventure...). This project is a final year study project of Créajeux made with Unity3D.  
+Panic Manor 😱 is a first person asymmetric multiplayer survival horror designed by Frédérick Raynal (famous designer of Alone in the Dark, Little Big Adventure...). This project is a final year study project of Créajeux made with Unity3D.  
 We were a team of about thirty students (yes that's a lot), part programmers and part artists and we had two full-time months to make this project.
 {: .text-justify}
 
