@@ -48,5 +48,24 @@ Here is a trailer to set the mood
 
 ## What I did on this project
 
+I have the chance to be part of a cross project team, meaning I have to make tools working on all Dontnod's projects made with UE4. I had to extend the editor with new fonctionnalities, creating new features for the proprietary tools and improving pipelines for certain teams. 
+These tools are used by a wide range of people, from designers to animators, and they aim to boost their productivity.  
+The hardest part is to release new functionalities within a short time range with a very small team.
+Here is some notable things I've done:
+{: .text-justify}
+* **Data Mining** setup. From the automatic data extraction from Unreal to the front-end display in a web page using [DataTable](https://datatables.net/).
+* A **Map System** (like google maps) using [LeafletJS](http://leafletjs.com/). Vampyr being an open world, it was very useful for the designers (display items placement, ennemies locations and have an overview of the level design) or the environment artists (to see the work accomplished and which parts of the world still need to be done). On the main lines, it uses commands called periodically by the continuous integration system:
+  * Unreal Screenshot command to update the map's visuals.
+  * Unreal command to extract the actor's informations (name, location...) to display markers on the map.
+  * Feeding all of the above in Leaftlet :smile:
+* **Automatic Jira Tasks** from placeholder actors in the levels. Level designers could place placeholder actors in the levels for objects they would need but not available yet. By adding custom metadata, which I implemented, to the object, such as a description or if it is animated or not, it would automatically create a Jira task in the database to be treated by the right team. It uses a mix of Unreal command to extract the actor's placeholder metadata and a python command with some [python Jira](https://jira.readthedocs.io/en/master/) code.
+* I also spent a lot of time make **Tools & Pipelines** for the animators by making python tools in Motionbuilder as:
+  * A custom animation exporter.
+  * Export of the cinematic's cameras and animation's timings from Unreal to Motionbuilder, so that animators can polish only used and visible parts of an animation.  
+  * Tool to load objects as references in the animator's working scenes.
+  * Perforce integration in Motionbuilder.
+{: .text-justify}
+Oh, yes, I also took care of some parts on the compliance on Playstation 4 and Xbox One, providing me an experience developing on consoles.
+{: .text-justify}
 ## Gallery
 {% include gallery %}

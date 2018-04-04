@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Guillaume Pastor"
   avatar           : "assets/images/author/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Tools programmer @dontnod<br>UE4 and Unity 3D enthusiast 🎮<br>Cinema/TV Shows addict 📺<br>ENJMIN alumnus 🎓"
+  bio              : "Engine/Tools programmer @dontnod<br>Vampyr<br>UE4 and Unity 3D enthusiast 🎮<br>Cinema/TV Shows addict 📺<br>ENJMIN alumnus 🎓"
   location         : "Paris"
   email            :
   uri              :
