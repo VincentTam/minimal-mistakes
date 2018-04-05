@@ -5,4 +5,4 @@ permalink: /articles/
 author_profile: true
 ---
 
-No articles yet
+No article yet
