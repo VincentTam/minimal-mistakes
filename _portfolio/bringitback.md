@@ -40,7 +40,7 @@ gallery:
 
 Bring it Back 🚚 is a cooperative multiplayer game where the players control a team of burglars.  
 In each mission, they have to steal valuable objects in original places. In addition to reaching the objects, they must bring them back to their truck without being detected.   
-Cooperation and teamwork will be the most important tool for them to become the best thieves in the world :wink:
+Cooperation and teamwork will be the most important tool for them to become the best thieves in the world !
 {: .text-justify}
 {% include video id="07tguOfuEEI" provider="youtube" %} 
 Bring it Back is a final year study project of the National Graduate School of Games in France (ENJMIN). Eleven students worked on this pre-production project during six months in 2016. It is developed with Unreal Engine 4.
