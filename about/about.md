@@ -6,14 +6,16 @@ author_profile: true
 ---
 
 Hey,
+{: .text-justify}
+I'm Guillaume, a programmer at [Dontnod Entertainment](http://dont-nod.com/). Part of a cross project team, I work/worked on ***Vampyr***, ***The Awesome Adventures of Captain Spirit***, ***Life is Strange 2*** and other unannounced projects.
+{: .text-justify}
+I am making, extending, maintaining many tools for Unreal Engine 4 as well as proprietary tools used by Dontnod's development teams such as:
 
-I'm Guillaume, a french programmer at [Dontnod Entertainment](http://dont-nod.com/) which is very known for ***Life Is Strange*** and also ***Remember Me***.  
-I'm currently working on ***Vampyr*** 🧛 and on some very secret projects.
+* Data Mining system.
+* *Google Maps* like levels display.
+* Maya and Motionbuilder Animation Pipeline. Tooling and communication with Unreal Engine.
+* 3DS Max/Maya/Unreal Engine Asset Pipeline.
 {: .text-justify}
-I went to the **University Institute of Technology** of *Aix-en-Provence, France*, where I got a degree in computer science.
+But I also have strong interest in gameplay programming and gamer feel, I occasionally do game jams with my friends.
 {: .text-justify}
-After that, I integrated in 2012 **Créajeux**, a video game school in *Nîmes, France*. It was my first contact with what it really means to make video games and work with a team.
-{: .text-justify}
-Finally, I went to the **National Graduate School of Games** ([ENJMIN](http://www.enjmin.fr/)) in *Angoulême, France*. That's where I made awesome projects with awesome people. I learned to work with every profession requiered to make a game (artists, game designers, sound designers, producers, programmers, ergonomists) and widely improved my skills. I got my Master degree from the ENJMIN in 2016.
-{: .text-justify}
-{% include figure image_path="/assets/images/other/enjmin.jpg" alt="Enjmin" caption="The ENJMIN in Angoulême"%}
+On my spare time, I love to hangout, play narrative games and watch great movies/TV shows.
