@@ -3,11 +3,6 @@ title: "Panic Manor"
 author_profile: true
 excerpt: "Panic Manor 😱 is a first person asymmetric multiplayer survival horror designed by Frédérick Raynal."
 order: 4
-tags:
-  - creajeux
-  - multiplayer
-  - unity3D
-  - csharp
 header:
   teaser: /assets/images/projects/panicmanor/teaserpm.png
 gallery:

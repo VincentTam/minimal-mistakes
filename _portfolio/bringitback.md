@@ -3,12 +3,6 @@ title: "Bring it Back"
 author_profile: true
 excerpt: "Bring it Back 🚚 is a cooperative multiplayer game where the players control a team of burglars."
 order: 2
-tags:
-  - enjmin
-  - multiplayer
-  - cooperation
-  - unreal engine 4
-  - c++
 header:
   teaser: /assets/images/projects/bringitback/teaserbib.png
 gallery:

@@ -2,12 +2,6 @@
 title: "Chronobot"
 author_profile: true
 order: 3
-tags:
-  - enjmin
-  - multiplayer
-  - opposition
-  - unity3D
-  - csharp
 excerpt: "Chronobot :joystick: is a self-cooperative game for two players where you are aided by clones of yourself from past rounds."
 header:
   teaser: /assets/images/projects/chronobot/teaserchrono.png
