@@ -18,4 +18,4 @@ I am making, extending, maintaining many tools for Unreal Engine 4 as well as pr
 {: .text-justify}
 But I also have strong interest in gameplay programming and gamer feel, I occasionally do game jams with my friends.
 {: .text-justify}
-On my spare time, I love to hangout, play narrative games and watch great movies/TV shows.
+On my spare time, I love to hangout, play narrative games and watch movies/TV shows.
