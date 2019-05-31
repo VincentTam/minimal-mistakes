@@ -2,7 +2,7 @@
 title: "The Awesome Adventures of Captain Spirit"
 author_profile: true
 excerpt: "The Awesome Adventures of Captain Spirit⛄is a narrative standalone free game developed by Dontnod Entertainment."
-order: 1
+order: 3000
 header:
   teaser: /assets/images/projects/captainspirit/teaser_captainspirit.jpg
 gallery:
@@ -20,7 +20,7 @@ gallery:
     image_path: assets/images/projects/captainspirit/captainspirit6.jpg
 ---
 {: .text-justify}
-The Awesome Adventures of Captain Spirit⛄is a narrative standalone free game developed by Dontnod Entertainment. It is available on Steam/Xbox One/Playstation 4. 
+The Awesome Adventures of Captain Spirit⛄is a narrative standalone free game developed by Dontnod Entertainment. It is available on Steam/Xbox One/Playstation 4.
 
 You follow Chris Eriksen, a young boy who creates the superhero alter ego Captain Spirit and you uncover the issues he is dealing with.
 

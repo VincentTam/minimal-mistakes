@@ -1,7 +1,7 @@
 ---
 title: "Chronobot"
 author_profile: true
-order: 3
+order: 6000
 excerpt: "Chronobot :joystick: is a self-cooperative game for two players where you are aided by clones of yourself from past rounds."
 header:
   teaser: /assets/images/projects/chronobot/teaserchrono.png
