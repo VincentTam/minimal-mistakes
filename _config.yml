@@ -29,7 +29,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -44,7 +44,7 @@ comments:
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
+  branch                 : "master"
   commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Guillaume Pastor"
   avatar           : "assets/images/author/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Engine/Tools programmer @dontnod<br>Life is Strange 2 👨‍👦<br>Captain Spirit ⛄<br>Vampyr 🧛<br>UE4 and Unity 3D enthusiast 🎮<br>Cinema/TV Shows addict 📺<br>ENJMIN alumnus 🎓"
+  bio              : "Engine/Tools programmer @dontnod<br><br>Life is Strange 2 👨‍👦<br>Captain Spirit ⛄<br>Vampyr 🧛<br><br>UE4 and Unity 3D enthusiast 🎮<br>Cinema/TV Shows addict 📺<br><br>ENJMIN alumnus 🎓"
   location         : "Paris"
   email            :
   links:
@@ -284,10 +284,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: true
       share: false
-      related: true
+      related: false
   # _portfolio
   - scope:
       path: ""
