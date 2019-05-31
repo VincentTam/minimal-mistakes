@@ -16,6 +16,6 @@ I am making, extending, maintaining many tools for Unreal Engine 4 as well as pr
 * Maya and Motionbuilder Animation Pipeline. Tooling and communication with Unreal Engine.
 * 3DS Max/Maya/Unreal Engine Asset Pipeline.
 {: .text-justify}
-But I also have strong interest in gameplay programming and gamer feel, I occasionally do game jams with my friends.
+But I also have strong interest in gameplay programming and game feel, I occasionally do game jams with my friends.
 {: .text-justify}
 On my spare time, I love to hangout, play narrative games and watch movies/TV shows.
