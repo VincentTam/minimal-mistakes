@@ -5,6 +5,7 @@ categories:
 tags:
   - Python
   - Unreal Engine 4
+comments: true
 ---
 {: .text-justify}
 If you are using [Unreal Engine Python](https://github.com/20tab/UnrealEnginePython) you *might* want to debug your program without putting ```print()``` everywhere.
