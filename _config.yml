@@ -60,8 +60,8 @@ staticman:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : https://api.staticman.net/v3/entry/github/ # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                : "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
-  secret                 : "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+  siteKey                : "6Lcn16YUAAAAAHQ0gYkul1ffk5SRRae773Fp07TR" # "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+  secret                 : "yY2frR6l1UympRnrJqj5ZqNRHgnlETZzzOgqiFbJCH/n/Zflmg+T4iFw2RpbeBkSzPt7CXVG9f8A9jnTFuBhYpHPBGGRg/aPa48jOTkXpYtiyeVerTlctTjTPe92+eJbEId/JO4NiCan6bxGK/2+TqTuner0uHRw6fnVm1++Cxk=" # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
