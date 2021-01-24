@@ -18,6 +18,9 @@
         {% else %}
           <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         {% endif %}
+        {% if post.ongoing %}
+        <i style="padding-left: 0.4em; color: #66CD00;">Ongoing</i>
+        {% endif %}
       </h4>
       <p class="page__meta">
         {% if post.last_modified_at %}

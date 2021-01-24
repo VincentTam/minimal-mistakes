@@ -8,5 +8,3 @@ permalink: /blog/2021/01/30/lvalues-and-rvalues/
 tags:
   - c++
 ---
-
-# Lvalues and Rvalues in C++
