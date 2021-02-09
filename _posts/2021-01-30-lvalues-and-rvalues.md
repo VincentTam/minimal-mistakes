@@ -112,3 +112,52 @@ const int& i = x; // ok (modifiable lvalue)
 const int& j = y; // ok (non-modifiable lvalue)
 const int& k = 100; // ok (rvalue)
 ```
+
+We can easily understand the concepts by following the comments of the above code snippet. The only limitation with the **lvalue references to const** objects is that if we want to manipulate a reference, we cannot. Let's look at some examples below using functions to understand more about these topics.
+{: .text-justify}
+
+```c++
+void func(int& i, int& j) {
+  // do something
+}
+
+int main() {
+  func(100, 100); // error
+
+  int i = 100;
+  int j = 100;
+  func(i, j); // ok
+
+  return 0;
+}
+```
+
+We can clearly see that we cannot pass **rvalues** directly to the function since `func()` accepts **lvalue references** as parameters. In C++, passing by reference is a more recommended way to do since it improves the performance of the code and reduces the unnecessary copies of the data between the memory locations of the objects. So, we can avoid passing **rvalues** directly by declaring **lvalues** first and passing them into functions, which is not very convenient. One way to make it works with **rvalues** is by making the function parameters as **lvalue references to const**.
+{: .text-justify}
+
+```c++
+void func(const int& i, const int& j) {
+  // do something
+}
+
+int main() {
+  func(100, 100); // now ok
+
+  int i = 100;
+  int j = 100;
+  func(i, j); // ok too
+  return 0;
+}
+```
+
+## Conclusion
+
+What if we want to modify the reference value or we still need to improve the performance of our application using references, it will be a problem for us until C++11 was introduced. These several issues are addressed by introducing new features such as **rvalue references** and **move semantics** in C++11, which makes our lives easier. We will closely look at and discuss more about these topics in future blog posts.
+{: .text-justify}
+
+## References
+
+* ["https://en.cppreference.com/w/cpp/language/value_category"](https://en.cppreference.com/w/cpp/language/value_category) ---<cite>cppreference</cite>
+* ["https://www.learncpp.com/cpp-tutorial/rvalue-references/"](https://www.learncpp.com/cpp-tutorial/rvalue-references/) ---<cite>learncpp</cite>
+* ["https://www.internalpointers.com/post/understanding-meaning-lvalues-and-rvalues-c"](https://www.internalpointers.com/post/understanding-meaning-lvalues-and-rvalues-c) ---<cite>internalpointers</cite>
+* ["https://drewcampbell92.medium.com/understanding-move-semantics-and-perfect-forwarding-987cf4dc7e27"](https://drewcampbell92.medium.com/understanding-move-semantics-and-perfect-forwarding-987cf4dc7e27) ---<cite>drewcampbell92(medium)</cite>
