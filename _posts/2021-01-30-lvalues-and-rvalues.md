@@ -67,3 +67,48 @@ int main() {
 
 Carefully look at the above code snippet. We define two functions called `func1()` and `func2()`. The first function returns the global variable `var` by **value** and the second one returns by **reference** to that global variable. Since functions return by value makes the output as **rvalues**, the expression `func1() = 100` gives error, as the left operand is **rvalue**. The second line works because the output of the `func2()` is **lvalue**, which references to the memory location of the global variable `var`.
 {: .text-justify}
+
+Prior to C++11, there was only one type of reference called **reference**, but now it can be called as **lvalue reference**.
+{: .text-justify}
+
+```c++
+int x = 1;
+int& y = x;
+y++; // x becomes 2
+```
+
+Here, `y` is a **lvalue reference**, which binds to a **lvalue** `x`.
+{: .text-justify}
+
+```c++
+int& y = 100; // error
+```
+
+This example doesn't work because **lvalue reference** needs lvalue to be bound but literal `100` is a rvalue and doesn't have a specific memory address as it's a temporary object.
+{: .text-justify}
+
+> More specifically, **lvalue references** can only be initialized with **modifiable lvalues**.
+{: .text-justify}
+
+```c++
+const int x = 100;
+int& y = x; // error
+```
+
+By adding a `const` keyword, the **lvalue** `x` in above example becomes a **non-modifiable lvalue**. Then, by the definition, we cannot assign **non-modifiable lvalue** `x` into **lvalue reference** `y`.
+{: .text-justify}
+
+> However, **lvalue references to const** objects can be initialized with both **modifiable lvalues** and **non-modifiable lvalues** as well as **rvalues**.
+{: .text-justify}
+
+The above definition makes **lvalue references to const** objects very useful. Consider the following example:
+{: .text-justify}
+
+```c++
+int x = 100; // modifiable lvalue x
+const int y = 100; // non-modifiable lvalue y
+
+const int& i = x; // ok (modifiable lvalue)
+const int& j = y; // ok (non-modifiable lvalue)
+const int& k = 100; // ok (rvalue)
+```
